@@ -51,11 +51,9 @@ namespace AspNetCoreMvc
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-<<<<<<< HEAD
+            
             //xxxapp.UseHttpsRedirection();
-=======
-            //app.UseHttpsRedirection();
->>>>>>> e5da3c040294b4661fbe4f45d0097cb95e1be7ac
+
             app.UseStaticFiles();
 
             app.UseRouting();
